@@ -1,9 +1,9 @@
 class Mentor
     
-    attr_accessor :name,:job
+    attr_accessor :name
     
     #初期化
-    def initialize (name)
+    def initialize name
         @name = name 
     end
     #仕事を紹介する
